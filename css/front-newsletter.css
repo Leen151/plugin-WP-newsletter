@@ -1,0 +1,48 @@
+@media (min-width: 550px) {
+    /* input nom et prénom sur 1 ligne*/
+    .user-name {
+        display: flex;
+    }
+    /* taille des input nom et prénom */
+    .NL-nom,
+    .NL-prenom {
+        width: 248px;
+    }
+    /* taille input email (double des nom et prénom + 2px entre pour alignement)*/
+    .NL-email {
+        width: 499px;
+    }
+
+    #contentUser input {
+        margin-left: 1px !important;
+        margin-right: 1px !important;
+    }
+}
+
+@media (max-width: 549px) {
+    .NL-nom,
+    .NL-prenom,
+    .NL-email{
+        width: 100%;
+    }
+}
+
+
+.NL-error-front{
+    margin-top: -20px;
+    font-size: 14px;
+}
+
+.title-nl{
+    margin-bottom: 5px;
+}
+
+.form-info{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.form-info,
+.title-nl{
+    text-align: center;
+}

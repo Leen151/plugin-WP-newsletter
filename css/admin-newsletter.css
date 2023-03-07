@@ -1,0 +1,42 @@
+/* input nom et prénom sur 1 ligne*/
+.user-name {
+    display: flex;
+}
+/* taille des input nom et prénom */
+.NL-nom,
+.NL-prenom {
+    width: 162px;
+}
+/* taille input email (double des nom et prénom + 2px entre pour alignement)*/
+.NL-email {
+    width: 326px;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#news, #list-mail{
+    margin-left: 1px;
+}
+
+/* pour mettre le bouton un peu plus bas*/
+#bt-user,
+#bt-user2,
+#send-nl{
+    margin-top: 15px;
+    margin-left: 1px;
+}
+
+.user-mail{
+    margin-top: 12px;
+}
+
+#profil{
+    font-style: italic;
+}
+
+#list-user{
+    list-style-type: disc;
+}
